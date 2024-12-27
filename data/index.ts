@@ -1,8 +1,10 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Calendars", link: "#calendar" },
     { name: "Contact", link: "#contact" },
+    { name: "Resume", link: "https://drive.google.com/file/d/1mfxZv8yB5z7rpeDQMhCQOvoCMSUfy9_7/view?usp=sharing" },
+
   ];
   
   export const gridItems = [
