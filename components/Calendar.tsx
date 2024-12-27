@@ -1,6 +1,6 @@
 "use client";
 
-import { GitHubCalendar, CombinationCalendar,LeetCodeCalendar } from "github-leetcode-component";
+import { GitHubCalendar,LeetCodeCalendar } from "github-leetcode-component";
 
 
 export default function Calendar() {
