@@ -86,10 +86,14 @@ export const FloatingNav = ({
           </Link>
         ))}
         {/* remove this login btn */}
-        {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-          <span>Login</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-        </button> */}
+        <button
+            className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
+            onClick={() => window.location.href = 'https://drive.google.com/file/d/1mfxZv8yB5z7rpeDQMhCQOvoCMSUfy9_7/view?usp=sharing'}
+        >
+            <span>Resume</span>
+            <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
+        </button>
+
       </motion.div>
     </AnimatePresence>
   );

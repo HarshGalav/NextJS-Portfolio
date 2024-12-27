@@ -1,9 +1,10 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Calendars", link: "#calendar" },
     { name: "Contact", link: "#contact" },
-    { name: "Resume", link: "https://drive.google.com/file/d/1mfxZv8yB5z7rpeDQMhCQOvoCMSUfy9_7/view?usp=sharing" },
 
   ];
   
@@ -206,14 +207,22 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
+      link:"https://github.com/HarshGalav",
       img: "/git.svg",
     },
     {
       id: 2,
+      link:"https://x.com/HarshSh11311338",
       img: "/twit.svg",
     },
     {
       id: 3,
+      link:"https://www.linkedin.com/in/harsh-sharma-a3a560244/",
       img: "/link.svg",
+    },
+    {
+      id: 4,
+      link:"https://leetcode.com/u/harshsharma3122/",
+      img: "/lc.png",
     },
   ];
