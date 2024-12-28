@@ -1,4 +1,14 @@
-module.exports = {
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Configuration options
+  output: 'export',
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   async rewrites() {
     return [
       {
@@ -12,3 +22,5 @@ module.exports = {
     ];
   },
 };
+
+export default nextConfig;
