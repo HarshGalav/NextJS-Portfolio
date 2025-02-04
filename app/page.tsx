@@ -1,9 +1,9 @@
+"use client"
+
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
